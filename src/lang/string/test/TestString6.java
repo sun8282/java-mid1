@@ -10,7 +10,7 @@ public class TestString6 {
         int index = str.indexOf(key);
         System.out.println("index = " + index);
         while(index >= 0){
-            str.indexOf(key, index + 1);
+            index = str.indexOf(key, index + 1);
             count++;
         }
     }
