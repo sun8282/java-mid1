@@ -12,13 +12,18 @@ public class MyInteger {
         return value;
     }
 
-    public int compareTo(int value, int target) {
-        if (value < target){
+    public int compareTo(int value) {
+        if (value < this.value){
             return -1;
-        } else if (value > target) {
+        } else if (value > this.value) {
             return 1;
         } else {
             return 0;
         }
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(value);
     }
 }
