@@ -1,6 +1,7 @@
 package lang.clazz;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class ClassMetaMain {
 
@@ -14,6 +15,18 @@ public class ClassMetaMain {
 
         for (Field field : fields) {
             System.out.println("field = " + field);
+        }
+
+        Method[] methods = clazz.getDeclaredMethods();
+        for (Method method : methods) {
+            System.out.println("method = " + method);
+        }
+
+        System.out.println("Superclass: " + clazz.getSuperclass().getName());
+
+        Class[] interfaces = clazz.getInterfaces();
+        for (Class anInterface : interfaces) {
+            System.out.println("Interface: " + anInterface.getName());
         }
     }
 }
