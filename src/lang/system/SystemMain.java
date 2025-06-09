@@ -24,7 +24,5 @@ public class SystemMain {
         System.out.println("Arrays.toString = " + Arrays.toString(copiedArray));
 
         System.exit(0);
-
-
     }
 }
