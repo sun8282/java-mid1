@@ -11,5 +11,8 @@ public class MathMain {
         System.out.println("Math.ceil(2.1) = " + Math.ceil(2.1));
         System.out.println("Math.floor(2.1) = " + Math.floor(2.1));
         System.out.println("Math.round(2.5) = " + Math.round(2.5));
+
+        System.out.println("Math.sqrt(4) = " + Math.sqrt(4));
+        System.out.println("Math.random() = " + Math.random());
     }
 }
