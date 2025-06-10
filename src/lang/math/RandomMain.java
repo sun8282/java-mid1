@@ -12,5 +12,8 @@ public class RandomMain {
 
         double randomDouble = random.nextDouble();
         System.out.println("randomDouble = " + randomDouble);
+
+        boolean randomBoolean = random.nextBoolean();
+        System.out.println("randomBoolean = " + randomBoolean);
     }
 }
