@@ -9,5 +9,8 @@ public class RandomMain {
 
         int randomInt = random.nextInt();
         System.out.println("randomInt = " + randomInt);
+
+        double randomDouble = random.nextDouble();
+        System.out.println("randomDouble = " + randomDouble);
     }
 }
