@@ -15,5 +15,11 @@ public class RandomMain {
 
         boolean randomBoolean = random.nextBoolean();
         System.out.println("randomBoolean = " + randomBoolean);
+
+        int randomRange1 = random.nextInt(10);
+        System.out.println("0 ~ 9: " + randomRange1);
+
+        int randomRange2 = random.nextInt(10) + 1;
+        System.out.println("1 ~ 10: " + randomRange2);
     }
 }
