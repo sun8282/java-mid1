@@ -1,4 +1,4 @@
-package lang.wrapper;
+package lang.wrapper.test;
 
 public class WrapperTest1 {
 
