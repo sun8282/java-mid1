@@ -8,8 +8,7 @@ public class ClassGradeEx2_2 {
         int price = 10000;
 
         DiscountService discountService = new DiscountService();
-        ClassGrade classGrade = new ClassGrade();
-        int result = discountService.discount(classGrade, price);
+        int result = discountService.discount(ClassGrade.BASIC, price);
 
         System.out.println("classGrade = " + result);
     }
