@@ -11,4 +11,8 @@ public class ClassGrade {
     private ClassGrade(int discountPercent) {
         this.discountPercent = discountPercent;
     }
+
+    public int getDiscountPercent() {
+        return discountPercent;
+    }
 }
