@@ -11,5 +11,9 @@ public class EnumMethodMain {
         for (Grade value : values) {
             System.out.println("value = " + value.name());
         }
+
+        String input = "GOLD";
+        Grade gold = Grade.valueOf(input);
+        System.out.println("gold = " + gold);
     }
 }
