@@ -8,5 +8,8 @@ public class EnumMethodMain {
 
         Grade[] values = Grade.values();
         System.out.println("values = " + Arrays.toString(values));
+        for (Grade value : values) {
+            System.out.println("value = " + value.name());
+        }
     }
 }
