@@ -11,6 +11,8 @@ public class NestedOuter {
         public void print() {
 
             System.out.println(nestedInstanceValue);
+
+            System.out.println(NestedOuter.outClassValue);
         }
     }
 }
