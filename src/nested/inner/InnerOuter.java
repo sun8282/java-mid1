@@ -5,7 +5,7 @@ public class InnerOuter {
     private static int outClassValue = 3;
     private int outInstanceValue = 2;
 
-    class Innter {
+    class Inner {
         private int innerInstanceValue = 1;
 
         public void print() {
