@@ -6,9 +6,9 @@ public class LocalOuterV3 {
 
     private int outInstanceVar = 3;
 
-    public Printer process(int paramVar) {
+    public Printer process(final int paramVar) {
 
-        int localVar = 1;
+        final int localVar = 1;
 
         class LocalPrinter implements Printer{
             int vlaue = 0;
