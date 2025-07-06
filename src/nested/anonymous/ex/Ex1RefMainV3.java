@@ -13,7 +13,7 @@ public class Ex1RefMainV3 {
 
     public static void main(String[] args) {
 
-        Process dice = new Process() {
+        hello(new Process() {
 
 
             @Override
@@ -21,9 +21,8 @@ public class Ex1RefMainV3 {
                 int randomValue = new Random().nextInt(6) + 1;
                 System.out.println("randomValue = " + randomValue);
             }
-        };
-
-        Process sum = new Process() {
+        });
+        hello(new Process() {
 
             @Override
             public void run() {
@@ -31,9 +30,6 @@ public class Ex1RefMainV3 {
                     System.out.println("i = " + i);
                 }
             }
-        };
-
-        hello(dice);
-        hello(sum);
+        });
     }
 }
